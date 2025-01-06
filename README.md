@@ -8,6 +8,16 @@ GenAI Tweet Creator is an AI-powered application that leverages OpenAI's GPT tec
 - **Regenerate Variations**: Get multiple versions of a tweet to find the perfect wording.
 - **User-Friendly Interface**: Simple and intuitive design for seamless tweet creation.
 
+## 📸 Screenshots  
+
+### 1. **Tweet Post Landing**  
+![Landing-screen](screens/landing.png)  
+*Description*: Landing interface to input tweet concept, idea, context to generate post content 
+
+### 2. **Tweet Generated Output**  
+![Tweet-generated](screens/tweet.png)  
+*Description*: Output generated posts in ready-to-use format.
+
 ## Installation
 
 1. Clone the repository:
