@@ -1,17 +1,13 @@
-from openai import OpenAI
-
-client = None
+import openai
 
 current_tweet = ""
 
 def init_client(openai_api_key):
-    global client
-    if client is None:
-        client = OpenAI(api_key=openai_api_key)
+    openai.api_key = openai_api_key
     
 def generate_tweet(description):
     global current_tweet
-    response = client.chat.completions.create(
+    response = openai.chat.completions.create(
         model="gpt-4o",
         temperature=1,
         messages=[
